@@ -1,0 +1,33 @@
+.assign-btn {
+    width: fit-content;
+    height: fit-content;
+    background-color: skyblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all linear 0.3s ease-in;
+    padding: -10px;
+    text-size-adjust: inherit;
+    
+}
+
+.assign-btn:hover {
+    transform: scale(0.9);
+    
+}
+
+.create-btn {
+    width: fit-content;
+    background-color: rgb(98, 202, 98);
+    
+}
+
+.save-btn {
+    width: fit-content;
+    background-color: blue;
+    color: white;
+}
+
+.arrowLeft {
+    width: fit-content;
+}

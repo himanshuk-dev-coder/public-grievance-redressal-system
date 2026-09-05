@@ -1,0 +1,127 @@
+/* Page base */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e9f7f5);
+  min-height: 100vh;
+}
+
+/* Heading */
+.logInStatus {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Card base */
+.resend-verifyContainer,
+.verify-codeContainer {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resend-verifyContainer:hover,
+.verify-codeContainer:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+/* Text */
+.resend-verifyContainer p {
+  font-size: 15px;
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.resend-verifyContainer span {
+  font-weight: 600;
+  color: #2563eb;
+  word-break: break-all;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Resend button */
+.resend-btn {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: #ffffff;
+}
+
+.resend-btn:hover {
+  background: linear-gradient(135deg, #1e40af, #2563eb);
+}
+
+/* Verify button */
+.verify-codeContainer button {
+  background: linear-gradient(135deg, #059669, #10b981);
+  color: #ffffff;
+}
+
+.verify-codeContainer button:hover {
+  background: linear-gradient(135deg, #047857, #059669);
+}
+
+/* Disabled state */
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Input */
+.verify-codeContainer input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 4px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.verify-codeContainer input:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .logInStatus {
+    font-size: 26px;
+  }
+}

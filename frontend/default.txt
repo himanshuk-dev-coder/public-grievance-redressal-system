@@ -1,0 +1,58 @@
+///navabr
+bg-gray-900
+border-gray-500
+px-12
+font-medium
+text-xl
+
+
+///page1
+//left
+px-15
+py-12
+
+
+// feature section
+\\f1
+Feedback & Rating System
+After resolving the issue, citizen can:
+
+Rate the solution
+
+Mark if satisfied or not
+
+Reopen complaint if issue persists
+
+
+\\f2
+Grievance Submission
+Simple form to submit complaint
+
+Category selection
+(water supply, electricity, roads, corruption, sanitation, etc.)
+
+Upload documents/images/video
+
+Auto-ticket number generation
+
+\\f3
+Grievance Tracking
+
+Live status tracking (Submitted → In Progress → Resolved)
+
+Timeline view of actions taken
+
+Unique grievance ID search
+
+\\f4
+Secure & Transparent
+
+Role-based access control
+
+Audit logs for every action
+
+Data encryption
+
+Transparency for citizens
+
+

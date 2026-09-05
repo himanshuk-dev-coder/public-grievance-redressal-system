@@ -1,0 +1,69 @@
+/* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  height: 100%; /* Make sure the body and html take full height */
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Root container for app */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Main content area (between header and footer) */
+.main-content {
+  flex: 1; /* Takes remaining space between header and footer */
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Example Navbar styling */
+nav {
+  background-color: #1e40af; /* your blue header */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Form card center alignment */
+.login-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}

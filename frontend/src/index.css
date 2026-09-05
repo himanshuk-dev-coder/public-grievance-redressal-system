@@ -1,0 +1,20 @@
+@import "tailwindcss" ;
+
+/* global.css */
+html, body, #root {
+  height: 100%;   /* पूरी screen cover */
+  margin: 0;      /* default margin हटाएं */
+  padding: 0;     /* default padding हटाएं */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* पूरा viewport cover */
+  min-width: 100vw;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}

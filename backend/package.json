@@ -1,0 +1,32 @@
+{
+  "name": "pgrs_project",
+  "version": "1.0.0",
+  "description": "Final Year Project",
+  "license": "ISC",
+  "author": "Himanshu Kumar",
+  "type": "module",
+  "main": "server.js",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "arctic": "^3.7.0",
+    "argon2": "^0.44.0",
+    "axios": "^1.16.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.3",
+    "mjml": "^4.18.0",
+    "mongoose": "^9.1.1",
+    "multer": "^2.0.2",
+    "request-ip": "^3.3.0",
+    "resend": "^6.9.1",
+    "zod": "^4.3.5"
+  }
+}
